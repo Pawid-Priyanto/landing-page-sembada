@@ -7,6 +7,12 @@ body, html {
 	width: 100% !important;
 	height: 100% !important;
 }
+.arrow-up {
+	width: 0; 
+	height: 0; 
+	font-size: 20px;
+	float: right;
+  }
 h2, h3, h4 {
 	font-family: 'Raleway', sans-serif;
 }
@@ -350,6 +356,10 @@ p.sembada {
 	overflow: hidden;
 	position: relative;
 	margin: 0;
+}
+#product{
+	/* background-color:#f6f6f6; */
+	background: url(../img/bg.png) center center no-repeat;;
 }
 .hover-bg .hover-text {
 	position: absolute;

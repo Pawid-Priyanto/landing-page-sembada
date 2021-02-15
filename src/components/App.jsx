@@ -6,8 +6,9 @@ import About from './about';
 import Services from './services';
 import Gallery from './gallery';
 import Testimonials from './testimonials';
-import Team from './Team';
+// import Team from './Team';
 import Contact from './contact';
+import Product from './Product';
 import $ from 'jquery';
 
 export class App extends Component {
@@ -43,8 +44,9 @@ export class App extends Component {
         <Services  data={this.state.resumeData.Services}/>
         <Gallery />
         <Testimonials  data={this.state.resumeData.Testimonials}/>
-        <Team  data={this.state.resumeData.Team}/>
+        {/* <Team  data={this.state.resumeData.Team}/> */}
         <Contact  data={this.state.resumeData.Contact}/>
+        <Product  data={this.state.resumeData.Product}/>
       </div>
     )
   }

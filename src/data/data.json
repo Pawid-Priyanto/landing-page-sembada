@@ -106,6 +106,70 @@
             "job": "Project Manager"
         }
     ],
+    "Product": [{
+        "img": "img/sembada-image/Bolt & Nut.png",
+        "name": "Bolt & Nut",
+        "job": "Building Structures",
+        "job1":   "Road Maintenance"    
+    },
+    {
+        "img": "img/sembada-image/Electrical.png",
+        "name": "Electrical",
+        "job": "Building Structures",
+        "job1":   "Road Maintenance"    
+    }, {
+        "img": "img/sembada-image/filter pump.png",
+        "name": "Filter Pump",
+        "job": "Building Structures",
+        "job1":   "Road Maintenance"   
+    },
+    {
+        "img": "img/sembada-image/fire safety.png",
+        "name": "Fire Safety",
+        "job": "Building Structures",
+        "job1":   "Road Maintenance"   
+    },
+    {
+        "img": "img/sembada-image/Flange_Fitting.png",
+        "name": "Flange Fitting",
+        "job": "Building Structures",
+        "job1":   "Road Maintenance"    
+    }, {
+        "img": "img/sembada-image/Gasket.png",
+        "name": "Gasket",
+        "job": "Building Structures",
+        "job1":   "Road Maintenance"   
+    },
+    {
+        "img": "img/sembada-image/Instrument_Control.png",
+        "name": "Instrumen Control",
+        "job": "Building Structures",
+        "job1":   "Road Maintenance"   
+    },
+    {
+        "img": "img/sembada-image/Lifting Safety.png",
+        "name": "Lifting Safety",
+        "job": "Building Structures",
+        "job1":   "Road Maintenance"    
+    }, {
+        "img": "img/sembada-image/Pipeline.png",
+        "name": "Pipeline",
+        "job": "Building Structures",
+        "job1":   "Road Maintenance"   
+    },
+    {
+        "img": "img/sembada-image/Valves.png",
+        "name": "Valve",
+        "job": "Building Structures",
+        "job1":   "Road Maintenance"   
+    },
+    {
+        "img": "img/sembada-image/Valves2.png",
+        "name": "Valve 2",
+        "job": "Building Structures",
+        "job1":   "Road Maintenance"   
+    }
+],
     "Card": [
         {
             "img": "img/sembada-image/Civil Work Service.png",

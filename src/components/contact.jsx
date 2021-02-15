@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import emailjs from 'emailjs-com';
 import Swal from 'sweetalert2';
-
+import {FaArrowUp} from 'react-icons/fa';
 
 
 export class Contact extends Component {
@@ -218,6 +218,12 @@ export class Contact extends Component {
               <a href="http://www.templatewire.com" rel="nofollow">
                 Our Team
               </a>
+              <a
+                    href="#header"
+                    className="arrow-up"
+                  >
+                    <FaArrowUp/>
+                  </a>
             </p>
           </div>
         </div>

@@ -7,6 +7,7 @@ import Services from './components/services';
 import Gallery from './components/gallery';
 import Testimonials from './components/testimonials';
 import Team from './components/Team';
+import Product from './components/Product';
 import Contact from './components/contact';
 import JsonData from './data/data.json';
 
@@ -28,11 +29,8 @@ export class App extends Component {
         <Navigation />
         <Header data={this.state.landingPageData.Header} />
         <About data={this.state.landingPageData.About} />
-        <Features data={this.state.landingPageData.Features} />
         <Services data={this.state.landingPageData.Card} />
-        {/* <Gallery /> */}
-        {/* <Testimonials data={this.state.landingPageData.Testimonials} /> */}
-        <Team data={this.state.landingPageData.Team} />
+        <Product data={this.state.landingPageData.Product} />
         <Contact data={this.state.landingPageData.Contact} />
       </div>
     )
@@ -40,3 +38,8 @@ export class App extends Component {
 }
 
 export default App;
+
+// unused
+{/* <Features data={this.state.landingPageData.Features} /> */}
+{/* <Gallery /> */}
+{/* <Team data={this.state.landingPageData.Team} /> */}

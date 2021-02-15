@@ -33,11 +33,11 @@ export class Navigation extends Component {
                   Home
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#features" className="page-scroll">
                   Features
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a href="#about" className="page-scroll">
                   About Us
@@ -48,11 +48,11 @@ export class Navigation extends Component {
                  Our Services
                 </a>
               </li>
-              {/* <li>
-                <a href="#portfolio" className="page-scroll">
-                  Gallery
+              <li>
+                <a href="#product" className="page-scroll">
+                  Product
                 </a>
-              </li> */}
+              </li>
               {/* <li>
                 <a href="#testimonials" className="page-scroll">
                   Testimonials
