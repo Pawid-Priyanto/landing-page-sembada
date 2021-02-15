@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { Card, ImageHeader, CardBody, CardFooter } from 'react-simple-card';
+import "../../src/style.css"
 
 export class Services extends Component {
   render() {
@@ -7,24 +9,30 @@ export class Services extends Component {
         <div className="container">
           <div className="section-title">
             <h2>Our Services</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-              dapibus leonec.
-            </p>
           </div>
           <div className="row">
-            {this.props.data
-              ? this.props.data.map((d, i) => (
-                  <div  key={`${d.name}-${i}`} className="col-md-4">
+        
+                {
+                  this.props.data ? this.props.data.map((x, i) =>(
+                    <div key={`${i}`} className="col-md-4 col-xs-12">
+
                     {" "}
-                    <i className={d.icon}></i>
-                    <div className="service-desc">
-                      <h3>{d.name}</h3>
-                      <p>{d.text}</p>
-                    </div>
-                  </div>
-                ))
-              : "loading"}
+                      <h3>{x.name}</h3>
+              <Card className="card">
+                <ImageHeader className="img-card" imageSrc={x.img} />
+                <CardBody style={{textAlign: "left"}}> 
+                  <ul className="list-style">
+                     <li>{x.job}</li>
+                     <li>{x.job1}</li>
+                     <li>{x.job2}</li>
+                  </ul>
+                  </CardBody>
+                <CardFooter>{x.name}</CardFooter>
+             </Card>
+
+              </div>
+                  ))
+               : "loading" }
           </div>
         </div>
       </div>

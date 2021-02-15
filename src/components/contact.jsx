@@ -48,6 +48,7 @@ export class Contact extends Component {
                         <input
                           type="text"
                           id="name"
+                          name="name"
                           className="form-control"
                           placeholder="Name"
                           required="required"
@@ -60,6 +61,7 @@ export class Contact extends Component {
                         <input
                           type="email"
                           id="email"
+                          name="email"
                           className="form-control"
                           placeholder="Email"
                           required="required"

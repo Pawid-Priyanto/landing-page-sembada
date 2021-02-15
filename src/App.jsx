@@ -29,7 +29,7 @@ export class App extends Component {
         <Header data={this.state.landingPageData.Header} />
         <About data={this.state.landingPageData.About} />
         <Features data={this.state.landingPageData.Features} />
-        <Services data={this.state.landingPageData.Services} />
+        <Services data={this.state.landingPageData.Card} />
         {/* <Gallery /> */}
         {/* <Testimonials data={this.state.landingPageData.Testimonials} /> */}
         <Team data={this.state.landingPageData.Team} />

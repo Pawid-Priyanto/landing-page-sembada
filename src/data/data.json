@@ -106,6 +106,29 @@
             "job": "Project Manager"
         }
     ],
+    "Card": [
+        {
+            "img": "img/image/services/02.PNG",
+            "name": "Civil Works",
+            "job": "Building Structures",
+            "job1":   "Road Maintenance"
+            
+        },
+        {
+            "img": "img/image/services/01.PNG",
+            "name": "Valva Test Api 598/6D",
+            "job": "Hydrotest",
+            "job1": "Oneumatic Low Pressure Test",
+            "job2":   "High Presure gas Test"
+        },
+        {
+            "img": "img/image/services/03.PNG",
+            "name": "Document Management Solutions",
+            "job": "Document Catalouging",
+            "job1": "Document Scanning/Digitizing" 
+            
+        }
+],
     "Contact": {
         "addressJakarta": "JL. Raden Saleh No.18 RST Jakarta 10430 - indonesia",
         "phoneJakarta": "+62(21) 2239 3800",
