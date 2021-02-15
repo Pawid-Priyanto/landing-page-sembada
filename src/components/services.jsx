@@ -21,7 +21,7 @@ export class Services extends Component {
               <Card className="card">
                 <ImageHeader className="img-card" imageSrc={x.img} />
                 <CardBody style={{textAlign: "left"}}> 
-                  <ul className="list-style">
+                  <ul className="list-style-service">
                      <li>{x.job}</li>
                      <li>{x.job1}</li>
                      <li>{x.job2}</li>

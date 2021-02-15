@@ -108,17 +108,17 @@
     ],
     "Card": [
         {
-            "img": "img/image/services/02.PNG",
+            "img": "img/sembada-image/Civil Work Service.png",
             "name": "Civil Works",
             "job": "Building Structures",
             "job1":   "Road Maintenance"
             
         },
         {
-            "img": "img/image/services/01.PNG",
+            "img": "img/sembada-image/Pressure Test Service.png",
             "name": "Valva Test Api 598/6D",
             "job": "Hydrotest",
-            "job1": "Oneumatic Low Pressure Test",
+            "job1": "Pneumatic Low Pressure Test",
             "job2":   "High Presure gas Test"
         },
         {

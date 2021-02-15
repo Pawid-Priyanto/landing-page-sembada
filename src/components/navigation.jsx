@@ -29,6 +29,11 @@ export class Navigation extends Component {
           >
             <ul className="nav navbar-nav navbar-right">
               <li>
+                <a href="#header" className="page-scroll">
+                  Home
+                </a>
+              </li>
+              <li>
                 <a href="#features" className="page-scroll">
                   Features
                 </a>
