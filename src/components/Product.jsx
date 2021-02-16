@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 // import Swiper core and required modules
-import { Card, ImageHeader, CardBody, CardFooter } from 'react-simple-card';
+// import { Card, ImageHeader, CardBody, CardFooter } from 'react-simple-card';
+import Card from 'react-bootstrap/Card'
+import Carousel from 'react-bootstrap/Carousel'
 import "../../src/style.css"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Navigation, EffectFlip,  Pagination, Scrollbar, A11y } from 'swiper';
@@ -11,6 +13,7 @@ import 'swiper/components/navigation/navigation.scss';
 import 'swiper/components/pagination/pagination.scss';
 import 'swiper/components/scrollbar/scrollbar.scss';
 import 'swiper/components/effect-fade/effect-fade.scss';
+import { CardGroup } from "react-bootstrap";
 
 
 SwiperCore.use([EffectFlip]);
@@ -30,7 +33,7 @@ export class Product extends Component {
         <div id="row">
           <Swiper
             spaceBetween={20}
-            slidesPerView={3}
+            slidesPerView={1}
             navigation
             pagination={{ clickable: true }}
             scrollbar={{ draggable: true }}
@@ -38,19 +41,27 @@ export class Product extends Component {
             onSwiper={(swiper) => console.log(swiper)}
           >
           {this.props.data
-          ? this.props.data.map((d, i) => (
-            <SwiperSlide key={i} className="col-xs-12 col-lg-9 col-md-4">
-           <Card className="card">
-                <ImageHeader className="img-card" imageSrc={d.img} />
-                <CardBody style={{textAlign: "left"}}> 
-                  <ul className="list-style-service">
-                     <li>{d.job}</li>
-                     <li>{d.job1}</li>
-                     <li>{d.job2}</li>
-                  </ul>
-                  </CardBody>
-                <CardFooter>{d.name}</CardFooter>
-             </Card>
+          ? this.props.data.map((d, i) => (    
+            <SwiperSlide key={i}>     
+              <CardGroup>
+               <h3>{d.name}</h3> 
+                <Card style={{ width: '28rem' }} >
+                  <Card.Img variant="top" src={d.img} />
+                  <Card.Body>
+                    
+                     {
+                        d.job ? d.job.map((x, i) => (
+                          
+                          <ul key={i} className="list-style-service" style={{fontWeight: "bold"}}>
+                            <li>{x}</li>
+                          </ul>
+                        ))
+                        : "..loading" }
+                        {console.log(i)}
+
+                  </Card.Body>
+                </Card>
+            </CardGroup>
             </SwiperSlide>
         ))
         : "loading"}  
@@ -65,3 +76,5 @@ export class Product extends Component {
 }
 
 export default Product;
+
+

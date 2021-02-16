@@ -109,67 +109,116 @@
     "Product": [{
         "img": "img/sembada-image/Bolt & Nut.png",
         "name": "Bolt & Nut",
-        "job": "Building Structures",
-        "job1":   "Road Maintenance"    
+        "job": [
+            "Raw Material:steel , Satainless steel",
+            "Surface Treatment",    
+            "Size:M4 to M100 (3/16\" to 4\")"  
+            ] 
     },
     {
         "img": "img/sembada-image/Electrical.png",
         "name": "Electrical",
-        "job": "Building Structures",
-        "job1":   "Road Maintenance"    
+        "job": [    
+                    "Cables, Cable Card",
+                    "Circuit Braker (Relay)",    
+                    "Lightning and Grounding",    
+                    "Panel and Push Button"   
+                ] 
     }, {
         "img": "img/sembada-image/filter pump.png",
         "name": "Filter Pump",
-        "job": "Building Structures",
-        "job1":   "Road Maintenance"   
+        "job": [
+            "Hepa Air Filter",
+            "Walter Filter Catridges"   
+               ]
     },
     {
         "img": "img/sembada-image/fire safety.png",
         "name": "Fire Safety",
-        "job": "Building Structures",
-        "job1":   "Road Maintenance"   
+        "job": [
+            "Disposable wear",
+           "Face, Eye, Ear Protection",   
+           "Fire Equipments",   
+           "Fire Extinguiser",   
+           "Fire Pump",   
+            "Fireman Suits",   
+           "Hand Gloves",   
+           "Helmet",
+           "Oil Sorbent",
+           "Repository Mask"
+        ]
     },
     {
         "img": "img/sembada-image/Flange_Fitting.png",
         "name": "Flange Fitting",
-        "job": "Building Structures",
-        "job1":   "Road Maintenance"    
+        "job": [
+                "Buttweld Fitting",
+               "Elbow, Tee, Reducer and Threadbolt",    
+               "Flange, Blind Flange and Sockolet",    
+               "Plug Hex-Nipple, Bushing and Caps",    
+               "Screw / Threaded fitting",    
+               "SocketWeld Fitting"  
+                ]
     }, {
         "img": "img/sembada-image/Gasket.png",
         "name": "Gasket",
-        "job": "Building Structures",
-        "job1":   "Road Maintenance"   
+        "job": [
+                "PTFE Gasket",
+                "Spiral Wound Gasket",   
+                "Comprofile Gasket",   
+                "Metal Jakceted Gasket" 
+            ]
+         
     },
     {
         "img": "img/sembada-image/Instrument_Control.png",
         "name": "Instrumen Control",
-        "job": "Building Structures",
-        "job1":   "Road Maintenance"   
+        "job": [
+                    "Control and valves",
+                    "Needle Valve",   
+                    "Preseure Gauge",   
+                    "Flow Meter",   
+                    "Thermo Couple" 
+                ]
     },
     {
         "img": "img/sembada-image/Lifting Safety.png",
         "name": "Lifting Safety",
-        "job": "Building Structures",
-        "job1":   "Road Maintenance"    
+        "job": [
+            "Building Structures",
+            "Road Maintenance"    
+        ]
     }, {
         "img": "img/sembada-image/Pipeline.png",
         "name": "Pipeline",
-        "job": "Building Structures",
-        "job1":   "Road Maintenance"   
+        "job": [
+                "Carbon Steel",
+                "Steamless steel",   
+                "Stainless steel",   
+                "Many Other Size"  
+                ]   
     },
     {
         "img": "img/sembada-image/Valves.png",
         "name": "Valve",
-        "job": "Building Structures",
-        "job1":   "Road Maintenance"   
+        "job": 
+                [
+                "Ball Valves",
+                "Blow Down Valve",
+                "Check Valve",
+                "Shutdown Valve"
+                ]
     },
     {
         "img": "img/sembada-image/Valves2.png",
         "name": "Valve 2",
-        "job": "Building Structures",
-        "job1":   "Road Maintenance"   
+        "job": [
+            "Building Structures",
+            "Road Maintenance"
+                ]   
     }
 ],
+
     "Card": [
         {
             "img": "img/sembada-image/Civil Work Service.png",
@@ -192,7 +241,7 @@
             "job1": "Document Scanning/Digitizing" 
             
         }
-],
+    ],
     "Contact": {
         "addressJakarta": "JL. Raden Saleh No.18 RST Jakarta 10430 - indonesia",
         "phoneJakarta": "+62(21) 2239 3800",
