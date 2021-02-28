@@ -39,15 +39,27 @@
 
 .img-card{
   overflow: hidden;
+  width: 180px;
+  object-fit: contain;
+  display: block;
+    margin: 0 auto;
+}
+.img-card-services{
+  overflow: hidden;
   height: 180px;
+  object-fit: contain;
+  display: block;
+    margin: 0 auto;
 }
 
 ul.list-style-service {
   list-style-type: "✓ ";
   list-style-position: outside;
   list-style-image: none;
+  
+  
 }
 
-ul.list-style-service li::before {content: "✓"; color: #6372ff;
+/* ul.list-style-service li::before {content: "✓"; color: #6372ff;
   display: inline-block; width: 1em;
-  margin-left: -1em}
+  margin-left: -1em} */

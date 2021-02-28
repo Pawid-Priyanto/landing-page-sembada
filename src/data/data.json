@@ -106,7 +106,32 @@
             "job": "Project Manager"
         }
     ],
-    "Product": [{
+    "Product": [
+     {
+        "img": "img/sembada-image/Lifting Safety.png",
+        "name": "Lifting Safety",
+        "job": [
+            "Building Structures",
+            "Road Maintenance"    
+        ]
+    },     
+    {
+        "img": "img/sembada-image/filter pump.png",
+        "name": "Filter Pump",
+        "job": [
+            "Hepa Air Filter",
+            "Walter Filter Catridges"   
+               ]
+    },
+    {
+        "img": "img/sembada-image/Valves2.png",
+        "name": "Valve 2",
+        "job": [
+            "Building Structures",
+            "Road Maintenance"
+                ]   
+    },
+    {
         "img": "img/sembada-image/Bolt & Nut.png",
         "name": "Bolt & Nut",
         "job": [
@@ -124,42 +149,8 @@
                     "Lightning and Grounding",    
                     "Panel and Push Button"   
                 ] 
-    }, {
-        "img": "img/sembada-image/filter pump.png",
-        "name": "Filter Pump",
-        "job": [
-            "Hepa Air Filter",
-            "Walter Filter Catridges"   
-               ]
-    },
+    }, 
     {
-        "img": "img/sembada-image/fire safety.png",
-        "name": "Fire Safety",
-        "job": [
-            "Disposable wear",
-           "Face, Eye, Ear Protection",   
-           "Fire Equipments",   
-           "Fire Extinguiser",   
-           "Fire Pump",   
-            "Fireman Suits",   
-           "Hand Gloves",   
-           "Helmet",
-           "Oil Sorbent",
-           "Repository Mask"
-        ]
-    },
-    {
-        "img": "img/sembada-image/Flange_Fitting.png",
-        "name": "Flange Fitting",
-        "job": [
-                "Buttweld Fitting",
-               "Elbow, Tee, Reducer and Threadbolt",    
-               "Flange, Blind Flange and Sockolet",    
-               "Plug Hex-Nipple, Bushing and Caps",    
-               "Screw / Threaded fitting",    
-               "SocketWeld Fitting"  
-                ]
-    }, {
         "img": "img/sembada-image/Gasket.png",
         "name": "Gasket",
         "job": [
@@ -171,24 +162,6 @@
          
     },
     {
-        "img": "img/sembada-image/Instrument_Control.png",
-        "name": "Instrumen Control",
-        "job": [
-                    "Control and valves",
-                    "Needle Valve",   
-                    "Preseure Gauge",   
-                    "Flow Meter",   
-                    "Thermo Couple" 
-                ]
-    },
-    {
-        "img": "img/sembada-image/Lifting Safety.png",
-        "name": "Lifting Safety",
-        "job": [
-            "Building Structures",
-            "Road Maintenance"    
-        ]
-    }, {
         "img": "img/sembada-image/Pipeline.png",
         "name": "Pipeline",
         "job": [
@@ -210,12 +183,41 @@
                 ]
     },
     {
-        "img": "img/sembada-image/Valves2.png",
-        "name": "Valve 2",
+        "img": "img/sembada-image/Instrument_Control.png",
+        "name": "Instrumen Control",
         "job": [
-            "Building Structures",
-            "Road Maintenance"
-                ]   
+                    "Control and valves",
+                    "Needle Valve",   
+                    "Preseure Gauge",   
+                    "Flow Meter",   
+                    "Thermo Couple" 
+                ]
+    },
+  
+     {
+        "img": "img/sembada-image/Flange_Fitting.png",
+        "name": "Flange Fitting",
+        "job": [
+                "Buttweld Fitting",
+               "Elbow, Tee, Reducer and Threadbolt",    
+               "Flange, Blind Flange and Sockolet",    
+               "Plug Hex-Nipple, Bushing and Caps",    
+               "Screw / Threaded fitting",    
+               "SocketWeld Fitting"  
+                ]
+    },
+    {
+        "img": "img/sembada-image/fire safety.png",
+        "name": "Fire Safety",
+        "job": [
+            "Disposable wear",
+           "Face, Eye, Ear Protection",   
+           "Fire Equipments, Fire Extinguiser",     
+           "Fire Pump,Fireman Suits",   
+           "Hand Gloves, Helmet",
+           "Oil Sorbent",
+           "Repository Mask"
+        ]
     }
 ],
 

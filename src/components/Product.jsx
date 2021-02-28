@@ -1,72 +1,47 @@
 import React, { Component } from "react";
-// import Swiper core and required modules
-// import { Card, ImageHeader, CardBody, CardFooter } from 'react-simple-card';
-import Card from 'react-bootstrap/Card'
-import Carousel from 'react-bootstrap/Carousel'
-import "../../src/style.css"
-import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Navigation, EffectFlip,  Pagination, Scrollbar, A11y } from 'swiper';
+// import "../../src/style.css"
 
-// Import Swiper styles
-import 'swiper/swiper.scss';
-import 'swiper/components/navigation/navigation.scss';
-import 'swiper/components/pagination/pagination.scss';
-import 'swiper/components/scrollbar/scrollbar.scss';
-import 'swiper/components/effect-fade/effect-fade.scss';
-import { CardGroup } from "react-bootstrap";
+import { Card, ImageHeader, CardBody } from 'react-simple-card';
 
 
-SwiperCore.use([EffectFlip]);
-SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
+
 
 export class Product extends Component {
   render() {
     return (
       <div id="product" className="text-center">
+        {/* <div className="container"> */}
+        {/* </div> */}
         <div className="container">
-        <div className="col-md-10 col-md-offset-1 section-title">
+          <div className="section-title">
             <h2>Product</h2>
           </div>
-         
-        </div>
-        <div className="container">
         <div id="row">
-          <Swiper
-            spaceBetween={20}
-            slidesPerView={1}
-            navigation
-            pagination={{ clickable: true }}
-            scrollbar={{ draggable: true }}
-            onSlideChange={() => console.log('slide change')}
-            onSwiper={(swiper) => console.log(swiper)}
-          >
           {this.props.data
           ? this.props.data.map((d, i) => (    
-            <SwiperSlide key={i}>     
-              <CardGroup>
+            <div  key={`${d.name}-${i}`} className="col-md-4 col-xs-12">
                <h3>{d.name}</h3> 
-                <Card style={{ width: '28rem' }} >
-                  <Card.Img variant="top" src={d.img} />
-                  <Card.Body>
+                <Card className="card" >
+                  <ImageHeader className="img-card" imageSrc={d.img} />
+                  <CardBody>
                     
                      {
                         d.job ? d.job.map((x, i) => (
                           
                           <ul key={i} className="list-style-service" style={{fontWeight: "bold"}}>
-                            <li>{x}</li>
+                            <li style={{textAlign: "left"}}>{x}</li>
                           </ul>
                         ))
                         : "..loading" }
                         {console.log(i)}
 
-                  </Card.Body>
+                  </CardBody>
                 </Card>
-            </CardGroup>
-            </SwiperSlide>
+           </div>
         ))
         : "loading"}  
         {console.log(this.props.data)}
-          </Swiper>
+         
           </div>
         </div>
       </div>

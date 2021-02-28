@@ -32,6 +32,9 @@ export class App extends Component {
         <Services data={this.state.landingPageData.Card} />
         <Product data={this.state.landingPageData.Product} />
         <Contact data={this.state.landingPageData.Contact} />
+        {/* <Team data={this.state.landingPageData.Team} /> */}
+        {/* <Gallery /> */}
+        {/* <Features data={this.state.landingPageData.Features} /> */}
       </div>
     )
   }
@@ -40,6 +43,3 @@ export class App extends Component {
 export default App;
 
 // unused
-{/* <Features data={this.state.landingPageData.Features} /> */}
-{/* <Gallery /> */}
-{/* <Team data={this.state.landingPageData.Team} /> */}

@@ -19,7 +19,7 @@ export class Services extends Component {
                     {" "}
                       <h3>{x.name}</h3>
               <Card className="card">
-                <ImageHeader className="img-card" imageSrc={x.img} />
+                <ImageHeader className="img-card-services" imageSrc={x.img} />
                 <CardBody style={{textAlign: "left"}}> 
                   <ul className="list-style-service">
                      <li>{x.job}</li>
