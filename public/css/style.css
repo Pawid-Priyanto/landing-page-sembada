@@ -140,8 +140,7 @@ ul, ol {
 }
 ul, ol {
 	padding: 0;
-	webkit-padding: 0;
-	moz-padding: 0;
+
 }
 hr {
 	height: 2px;
@@ -440,7 +439,11 @@ p.sembada {
 }
 #product{
 	/* background-color:#f6f6f6; */
-	background: url(../img/bg.png) center center no-repeat;;
+	background: url(../img/bg.png) center;
+	  /* Center and scale the image nicely */
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
 }
 .hover-bg .hover-text {
 	position: absolute;

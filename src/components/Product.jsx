@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-// import "../../src/style.css"
+// import "../../public/css/style.css"
 
 import { Card, ImageHeader, CardBody } from 'react-simple-card';
 
